@@ -12,6 +12,7 @@ int main()
     printf("Edad: ");
     scanf("%u",&edad);
     printf("Vas a Cumplir: %u", edad+1);
+    printf("\nEres especial");
 
     return 0;
 }
