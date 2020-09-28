@@ -8,6 +8,10 @@ void suma(int a, int b)
 
 void resta(int a, int b)
 {
+    if(a<0)
+    {
+        return 0;
+    }
     return a - b;
 }
 
